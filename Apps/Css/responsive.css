@@ -1,0 +1,318 @@
+/* =====================================
+Template Name: 	Celestial Comapany
+Author Name: Lennox Ngonje
+Contact: +254759279733 Template.
+========================================*/
+/* Tablet Screen */
+@media only screen and (min-width: 768px) and (max-width: 1034px) {
+	.bg1 {
+		height: 90%;
+	}
+
+	.text1 {
+		font-size: 60px;
+	}
+
+	.IMG1 {
+		width: 350px;
+	}
+
+	.IMG2 {
+		width: 350px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.tag1 {
+		display: none;
+	}
+
+	.circle2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.circle5 {
+		height: 390px;
+		width: 390px;
+		position: relative;
+		top: 130px;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		background-color: var(--body-bg-color);
+	}
+	
+	
+	.circle6 {
+		height: 320px;
+		width: 320px;
+		background-color: var(--bg-color);
+		position: absolute;
+		bottom: 241px;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+	
+	}
+
+	.circle7 {
+		height: 270px;
+		width: 270px;
+		position: relative;
+		bottom: 135px;
+	}
+}
+
+
+/* Mobile Screen */
+@media only screen and (max-width: 767px) {
+	.bg1 {
+		height: 50%;
+	}
+
+	.text1 {
+		font-size: 70px;
+	}
+
+	.IMG1 {
+		width: 950px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.tag1 {
+		display: none;
+	}
+
+	.IMG2{
+		width: 370px; 
+		height: 300px;
+	}
+
+	.circle2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.circle5 {
+		height: 320px;
+		width: 320px;
+		position: relative;
+		bottom: 24%;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		background-color: rgba(238, 84, 57, 0.952);
+	}
+
+
+	.circle6 {
+		height: 270px;
+		width: 270px;
+		background-color: rgba(250, 191, 124, 0.952);
+		position: absolute;
+		bottom: 171px;
+		left: 17%;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+
+	}
+
+
+
+	.circle7 {
+		height: 200px;
+		width: 200px;
+		position: relative;
+		bottom: 69px;
+		background-color: rgb(255, 255, 255);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: smaller;
+	}
+
+	.IMG3{
+		width: 400px;
+	}
+
+	.IMG4{
+		width: 400px;
+	}
+
+	.col1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-top: 470px;
+	}
+
+	.oval-image {
+		height: 450px;
+		width: 310px;
+		position: absolute;
+		bottom: 0px;
+		background-color: var(--bg-color);
+		border-radius: 5%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	
+	  }
+	
+	  .square{
+		height: 270px;
+		width: 350px;
+		position: relative;
+		left: 4%;
+		bottom: 180%;
+		border-radius: 10%;
+		display: flex;
+		align-items: center;
+		background-color: var(--body-bg-color);
+	}
+
+	.circle3{
+		display: none;
+	}
+}
+
+
+
+/* Mobile Screen */
+@media only screen and (max-width: 375px) and (max-width: 667px) {
+	.bg1 {
+		height: 50%;
+	}
+
+	.text1 {
+		font-size: 70px;
+	}
+
+	.IMG1 {
+		width: 950px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.tag1 {
+		display: none;
+	}
+
+	.IMG2{
+		width: 370px; 
+		height: 300px;
+	}
+
+	.circle2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.circle5 {
+		height: 320px;
+		width: 320px;
+		position: relative;
+		bottom: 24%;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		background-color: rgba(238, 84, 57, 0.952);
+	}
+
+
+	.circle6 {
+		height: 270px;
+		width: 270px;
+		background-color: rgba(250, 191, 124, 0.952);
+		position: absolute;
+		bottom: 171px;
+		margin-left: -2%;
+		border-radius: 50%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+
+	}
+
+
+
+	.circle7 {
+		height: 200px;
+		width: 200px;
+		position: relative;
+		bottom: 69px;
+		background-color: rgb(255, 255, 255);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: smaller;
+	}
+
+	.IMG3{
+		width: 375px;
+	}
+
+	.IMG4{
+		width: 375px;
+	}
+
+	.col1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-top: 470px;
+	}
+
+	.oval-image {
+		height: 450px;
+		width: 310px;
+		position: absolute;
+		bottom: 0px;
+		background-color: var(--bg-color);
+		border-radius: 5%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	
+	  }
+	
+	  .square{
+		height: 270px;
+		width: 350px;
+		position: relative;
+		left: 4%;
+		bottom: 180%;
+		border-radius: 10%;
+		display: flex;
+		align-items: center;
+		background-color: var(--body-bg-color);
+	}
+
+	.circle3{
+		display: none;
+	}
+}
